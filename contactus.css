@@ -1,0 +1,105 @@
+a:link{
+    text-decoration: none;
+    position: relative;
+    font-size: 18px;
+}
+
+span a::after{
+    content: '';
+    position: absolute;
+    background-color: #E80F88;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+   
+}
+a:hover{
+    color: #E80F88;
+}
+a:hover::after{
+    width: 100%;
+}
+a button{
+    border: 1px solid black;
+    font-size:17px;
+    text-decoration: none;
+    background-color: white;
+    height: 40px;
+}
+a button:hover{
+     background-color: #E80F80;
+}
+fieldset{
+    background-color: #EAF6F6;
+    border: 1px solid #EAF6F6;
+    
+}
+div{
+    padding-left: 8%;
+    padding-right: 6%;
+}
+h1{
+    color: #164863;
+    font-size: 38px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+p{
+    
+    font-size: 20px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+label{
+    font-size: 20px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+input{
+    width: 46%;
+    height: 40px;
+}
+textarea{
+    width: 46%;
+}
+#submit{
+    background-color:#6499E9;
+    width:46%;
+    height: 40px;
+    border-radius: 7px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #6499E9;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer section{
+    border:1px solid #1A1A40 ;
+    margin-left: 40%;
+    margin-top: -316px;
+}
+footer{
+    border: 1px solid #1A1A40;
+    background-color: #1A1A40;
+    color: white;
+    padding-left: 20%;
+    height: 470px;
+   
+}
+footer h3{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer p{
+    color: white;
+    font-size:20px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer a{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
